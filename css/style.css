@@ -1,0 +1,345 @@
+div {
+    display: block;
+}
+
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: #added5;
+}
+
+img {
+    border: none;
+}
+
+/************ intro animation ***********/
+.sky {
+    background: #added5;
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 60px);
+}
+
+.ground {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+}
+
+.loading {
+    position: fixed;
+    bottom: 60px;
+    left: 400px;
+    z-index: 11;
+}
+
+#roof {
+    bottom: 410px;
+    left: 347px;
+}
+
+#table {
+    left: 590px;
+}
+
+/**************** TYPE AND TEXT *****************/
+h1, h2, h3, h4, h5, h6, header, body {
+    padding: 0; 
+    margin: 0;
+    font-family: 'Average Sans', sans-serif;
+}
+
+h1.big-header {
+    font-size: 24pt;
+    font-weight: bold;
+    top: 60px;
+    left: 5%;
+    position: absolute;
+    z-index: 8;
+    width: 66%;
+}
+
+a {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 14pt;
+    top: 40px;
+    left: 5%;
+    position: absolute;
+    z-index: 8;
+    width: 45%;
+}
+
+p {
+    font-size: 14pt;
+    top: 120px;
+    left: 5%;
+    position: absolute;
+    width: 35%;
+}
+
+.body-text {
+    display: inline-block;
+    z-index: 8;
+}
+
+.clickable {
+    background: #eeeeee;
+}
+
+.clicked {
+    background: #dddddd;
+}
+
+.toggle-text {
+    left: 50%;
+    font-size: 12pt;
+    top: 120px;
+}
+
+
+/************* body stuff **************/
+.user {
+    position: fixed;
+    left: 530px;
+    bottom: 56px;
+    z-index: 10;
+}
+
+#wrapper {
+    overflow: hidden;
+    min-width: 800px;
+}
+
+.arrow {
+    width: 4em;
+    left: 48%;
+    display: none;
+}
+
+#down-arrow {
+    position: fixed;
+    bottom: 10px;
+    z-index: 20;
+}
+
+#up-arrow {
+    position: fixed;
+    top: 10px;
+    z-index: 20;
+}
+
+/********************** HOME ************************/
+
+#ground-home {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+    background: #f4a589; /*red*/
+    z-index: -1;
+}
+
+#chair {
+    position: fixed;
+    bottom: 60px;
+    left: 510px;
+}
+
+#header-home {
+    display: none;
+}
+
+#body-text-home {
+    display: none;
+}
+
+#toggle-text-home {
+    display: none;
+}
+
+/****************** STEP 1 eligibility ********************/
+#ground-step1 {
+    position: absolute;
+    bottom: -60px;
+    width: 100%;
+    height: 60px;
+    background: #fdeebc; /*yellow*/
+}
+
+#header-step1 {
+    display: none;
+}
+
+#body-text-step1 {
+    display: none;
+}
+
+.toggle-text-step1 {
+    display: none;
+}
+
+#cityscape {
+    position: absolute;
+    bottom: -1000px;
+    margin: 0 5%;
+    width: 80%;
+}
+
+#family {
+    position: absolute;
+    bottom: -300px;
+    left: 460px;
+}
+
+#arm-step1 {
+    position: absolute;
+    left: 620px;
+    bottom: 176px;
+    opacity: 0;
+}
+
+/****************** STEP 2 income and cost ********************/
+#ground-step2 {
+    position: absolute;
+    bottom: -60px;
+    width: 100%;
+    height: 60px;
+    background: #addebd; /*green*/
+}
+
+#header-step2 {
+    display: none;
+}
+
+#body-text-step2 {
+    display: none;
+}
+
+.toggle-text-step2 {
+    display: none;
+}
+
+#income {
+    position: absolute;
+    bottom: -800px;
+    left: 0;
+}
+
+#cost {
+    position: absolute;
+    bottom: -800px;
+    right: 0;
+}
+
+/****************** STEP 3 which voucher ********************/
+#ground-step3 {
+    position: absolute;
+    bottom: -60px;
+    width: 100%;
+    height: 60px;
+    background: #f4a589; /*red*/
+}
+
+#header-step3 {
+    display: none;
+}
+
+#body-text-step3 {
+    display: none;
+}
+
+.toggle-text-step3 {
+    display: none;
+}
+
+#house {
+    position: absolute;
+    bottom: -800px;
+    left: 5%;
+}
+
+#apartment {
+    position: absolute;
+    bottom: -800px;
+    right: 5%;
+}
+
+/****************** STEP 4 apply ********************/
+#ground-step4 {
+    position: absolute;
+    bottom: -60px;
+    width: 100%;
+    height: 60px;
+    background: #added5; /*blue*/
+}
+
+#header-step4 {
+    display: none;
+}
+
+#body-text-step4 {
+    display: none;
+}
+
+.toggle-text-step4 {
+    display: none;
+}
+
+#pha {
+    position: absolute;
+    bottom: -600px;
+    right: 0;
+}
+
+#arm-step4 {
+    position: absolute;
+    left: 620px;
+    bottom: 234px;
+    opacity: 0;
+}
+
+/****************** STEP 5 last steps ********************/
+#ground-step5 {
+    position: absolute;
+    bottom: -60px;
+    width: 100%;
+    height: 60px;
+    background: #f4a589; /*red*/
+}
+
+#header-step5 {
+    top: 110px;
+    display: none;
+}
+
+#step5-small-header {
+    top: 60px;
+    display: none;
+}
+
+#body-text-step5 {
+    top: 150px;
+    display: none;
+}
+
+.toggle-text-step5 {
+    top: 150px;
+    display: none;
+}
+
+#furniture {
+    position: absolute;
+    bottom: -600px;
+    right: 10%;
+}
+
+#arm-step5 {
+    position: absolute;
+    left: 620px;
+    bottom: 236px;
+    opacity: 0;
+}

@@ -1,0 +1,131 @@
+/* iphone */
+/* absolute left offset by ***410px*** */
+@media screen and (max-width: 380px) {
+    h1, h2, h3, h4, h5, h6, header, body, p {
+        width: 84%;
+        margin-right: 5%;
+        min-width: 340px;
+    }
+
+    h1.big-header {
+        font-size: 16pt;
+        top: 60px;
+        left: 5%;
+    }
+
+    p {
+        font-size: 11pt;
+        top: 110px;
+    }
+
+    .body-text {
+        z-index: 12;
+    }
+
+    .toggle-text {
+        top: 240px;
+        left: 5%;
+        font-size: 9pt;
+    }
+
+    /* house animation */
+    .loading {
+        left: -10px;
+        z-index: 11;
+        width: 110%;
+    }
+
+    #roof {
+        left: -63px;
+        width: 121%;
+    }
+
+    #table {
+        left: 180px;
+        width: 50%;
+    }
+
+    .user {
+        left: 120px;
+    }
+
+    /* home stuff */
+    #chair {
+        left: 100px;
+    }
+
+    /* step 1 stuff */
+    #body-text-step1 {
+        top: 100px;
+    }
+
+    .toggle-text-step1 {
+        top: 280px;
+    }
+
+    #cityscape {
+        left: -50%;
+        width: 200%;
+    }
+
+    #family {
+        left: 50px;
+    }
+
+    #arm-step1 {
+        left: 210px;
+    }
+
+    /* step 2 stuff */
+    #income {
+        left: -290px;
+        }
+
+    #cost {
+        right: -320px;
+    }
+
+    /* step 3 stuff */
+    #house {
+        left: -270px;
+        }
+    
+    #apartment {
+        right: -260px;
+    }
+
+    .toggle-text-step3 {
+        top: 266px;
+    }
+
+    /* step 4 stuff */
+    #body-text-step4 {
+        top: 100px;
+    }
+
+    #pha {
+        right: -400px;
+    }
+
+    #arm-step4 {
+        left: 210px;
+    }
+
+    /* step 5 stuff */
+    #header-step5 {
+        top: 130px;
+    }
+
+    #body-text-step5 {
+        top: 170px;
+    }
+
+    .toggle-text-step5 {
+        top: 250px;
+    }
+
+    #arm-step5 {
+        left: 210px;
+    }
+
+}

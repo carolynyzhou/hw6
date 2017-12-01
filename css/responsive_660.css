@@ -1,0 +1,93 @@
+/* absolute left offset by ***320*** */
+@media screen and (max-width: 660px) {
+    h1.big-header {
+        font-size: 20pt;
+        line-height: 22.5pt;
+    }
+
+    .body-text {
+        top: 140px;
+        font-size: 12pt;
+    }
+
+    .toggle-text {
+        font-size: 10pt;
+    }
+
+    /* house animation */
+    .loading {
+        left: 80px;
+        z-index: 11;
+    }
+
+    #roof {
+        /*bottom: 410px;*/
+        left: 27px;
+    }
+
+    #table {
+        left: 270px;
+    }
+
+    .user {
+        left: 210px;
+    }
+
+    /* home stuff */
+    #chair {
+        left: 190px;
+    }
+
+    /* step 1 stuff */
+    #cityscape {
+        margin: 0;
+        width: 100%;
+    }
+
+    #family {
+        left: 140px;
+    }
+
+    #arm-step1 {
+        left: 300px;
+    }
+
+    /* step 2 stuff */
+    #income {
+        left: -190px;
+        }
+    #cost {
+        right: -290px;
+    }
+
+    /* step 3 stuff */
+    #house {
+        left: -150px;
+        }
+    
+    #apartment {
+        right: -140px;
+    }
+
+    /* step 4 stuff */
+    #pha {
+        right: -250px;
+    }
+
+    #arm-step4 {
+        left: 300px;
+    }
+
+    /* step 5 stuff */
+    #header-step5 {
+    top: 150px;
+    }
+
+    #body-text-step5 {
+    top: 185px;
+    }
+
+    #arm-step5 {
+        left: 300px;
+    }
+}
